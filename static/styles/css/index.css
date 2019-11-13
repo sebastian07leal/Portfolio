@@ -8095,10 +8095,12 @@ body {
   background-color: #121212;
 }
 
+/**Estilos del navegador del header*/
 .nav-Container {
   display: flex;
   justify-content: space-between;
   padding: 5px 10px 5px 2px;
+  /**Estilos de boton de menu*/
 }
 .nav-Container img {
   width: 50px;
@@ -8107,6 +8109,7 @@ body {
   color: #03DAC5;
 }
 
+/**Estilos menu despegable*/
 .sidenav__container {
   padding: 35px 5px 0px 5px;
   display: flex;
@@ -8120,6 +8123,27 @@ body {
 .sidenav__container li a {
   color: #03DAC5;
   font-size: 20px;
+}
+
+/**Estilos de contenedor de fondo*/
+.banner-container {
+  background-color: red;
+  margin-top: 0px;
+  height: 40vh;
+}
+.banner-container__section--text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.banner-container__section--text p {
+  margin: 0px;
+  color: white;
+  font-size: 20px;
+}
+.banner-container__section--text b {
+  color: #03DAC5;
 }
 
 /*# sourceMappingURL=index.css.map */

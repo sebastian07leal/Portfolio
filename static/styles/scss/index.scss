@@ -6,7 +6,7 @@ $second-color: #03DAC5;
 body {
     background-color: $back-color;
 }
-
+/**Estilos del navegador del header*/
 .nav-Container {
     display: flex;
     justify-content: space-between;
@@ -15,12 +15,12 @@ body {
     & img {
         width: 50px;
     }
-
+    /**Estilos de boton de menu*/
     & a {
         color: $second-color;
     }
 }
-
+/**Estilos menu despegable*/
 .sidenav__container {
     padding: 35px 5px 0px 5px;
     display: flex;
@@ -36,4 +36,28 @@ body {
         color: $second-color;
         font-size: 20px;
     }
+}
+/**Estilos de contenedor de fondo*/
+.banner-container {
+    background-color: red;
+    margin-top: 0px;
+    height: 40vh;
+
+    &__section--text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+
+        & p {
+            margin: 0px;
+            color: white;
+            font-size: 20px;
+        }
+
+        & b {
+            color: $second-color;
+        }
+    }
+
 }
