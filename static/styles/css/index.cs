@@ -8093,6 +8093,8 @@ input[type=range]::-ms-thumb {
 }
 body {
   background-color: #121212;
+  height: 100vh;
+  width: 100%;
 }
 
 .nav-Container {
@@ -8103,23 +8105,5 @@ body {
 .nav-Container img {
   width: 50px;
 }
-.nav-Container a {
-  color: #03DAC5;
-}
 
-.sidenav__container {
-  padding: 35px 5px 0px 5px;
-  display: flex;
-  flex-direction: column;
-  background-color: #121212;
-}
-.sidenav__container li {
-  display: flex;
-  justify-content: center;
-}
-.sidenav__container li a {
-  color: #03DAC5;
-  font-size: 20px;
-}
-
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.cs.map */
