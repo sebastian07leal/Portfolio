@@ -1,0 +1,26 @@
+{
+  "name": "Portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastian07leal/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebastian07leal/Portfolio/issues"
+  },
+  "homepage": "https://github.com/sebastian07leal/Portfolio#readme",
+  "devDependencies": {
+    "sass": "^1.23.3"
+  },
+  "dependencies": {
+    "materialize-css": "^1.0.0"
+  }
+}
