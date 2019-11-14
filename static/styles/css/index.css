@@ -8127,7 +8127,8 @@ body {
 
 /**Estilos de contenedor de fondo*/
 .banner-container {
-  background-color: red;
+  background-image: url("../../assets/sebastianPhoto.jpg");
+  background-size: 100% 100%;
   margin-top: 0px;
   height: 40vh;
 }
@@ -8144,6 +8145,36 @@ body {
 }
 .banner-container__section--text b {
   color: #03DAC5;
+}
+
+.sub-title {
+  display: block;
+  margin: 0px;
+  padding: 30px 20px;
+  color: #03DAC5;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.container-card {
+  padding: 8px 10px;
+  background-color: #2C2C2C;
+  color: white;
+}
+.container-card__title b {
+  letter-spacing: 1px;
+  font-weight: bold;
+  display: block;
+  color: #03DAC5;
+}
+.container-card__content a {
+  color: #03DAC5;
+}
+.container-card__content p {
+  margin: 2px 0px 5px 0px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  color: white;
 }
 
 /*# sourceMappingURL=index.css.map */

@@ -1,6 +1,7 @@
 @import '../../../node_modules/materialize-css/sass/materialize.scss';
 
 $back-color: #121212;
+$firs-color: #2C2C2C;
 $second-color: #03DAC5;
 
 body {
@@ -39,7 +40,8 @@ body {
 }
 /**Estilos de contenedor de fondo*/
 .banner-container {
-    background-color: red;
+    background-image: url('../../assets/sebastianPhoto.jpg');
+    background-size: 100% 100%;
     margin-top: 0px;
     height: 40vh;
 
@@ -60,4 +62,41 @@ body {
         }
     }
 
+}
+
+.sub-title {
+    display: block;
+    margin:0px;
+    padding: 30px 20px;
+    color: $second-color;
+    font-size: 1.4em;
+    font-weight: bold;
+
+}
+
+.container-card {
+    padding: 8px 10px;
+    background-color: $firs-color;
+    color: white;
+
+    &__title b {
+        letter-spacing: 1px;
+        font-weight: bold;
+        display: block;
+        color: $second-color;
+    }
+
+    &__content {
+
+        a {
+            color: $second-color;
+        }
+
+        p {
+            margin: 2px 0px 5px 0px;
+            padding-left: 10px;
+            padding-bottom: 10px;
+            color: white;
+        }
+    }
 }
