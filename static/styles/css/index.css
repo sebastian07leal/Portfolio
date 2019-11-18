@@ -8201,4 +8201,25 @@ body {
   margin: 5px 5px;
 }
 
+/**Estilos de footer*/
+.container-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.container-footer h2 {
+  margin: 0px 0px;
+  font-size: 1.7em;
+  color: #03DAC5;
+  font-weight: bold;
+}
+.container-footer p {
+  color: #03DAC5;
+}
+.container-footer__contImg img {
+  width: 70px;
+  border-radius: 50px;
+}
+
 /*# sourceMappingURL=index.css.map */
