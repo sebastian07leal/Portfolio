@@ -8147,6 +8147,7 @@ body {
   color: #03DAC5;
 }
 
+/**Estilos de divisores */
 .sub-title {
   display: block;
   margin: 0px;
@@ -8154,6 +8155,11 @@ body {
   color: #03DAC5;
   font-size: 1.4em;
   font-weight: bold;
+}
+
+/**Estilos de seccion de portafolio*/
+.portafolio {
+  margin-bottom: 0px;
 }
 
 .container-card {
@@ -8175,6 +8181,24 @@ body {
   padding-left: 10px;
   padding-bottom: 10px;
   color: white;
+}
+
+/**Estilos de seccion de estudios*/
+.container-certifications {
+  background-color: #121212;
+  margin: 0px 10.5px;
+  padding: 0px 5px;
+}
+.container-certifications__card {
+  background-color: #121212;
+  padding: 5px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container-certifications__card img {
+  width: 150px;
+  margin: 5px 5px;
 }
 
 /*# sourceMappingURL=index.css.map */
