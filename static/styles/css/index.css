@@ -8099,6 +8099,7 @@ body {
 .nav-Container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 5px 10px 5px 2px;
   /**Estilos de boton de menu*/
 }
@@ -8217,6 +8218,7 @@ body {
 }
 .container-footer p {
   color: #ffffff;
+  font-size: 18px;
 }
 .container-footer__contImg img {
   width: 50px;

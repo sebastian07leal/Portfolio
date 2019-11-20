@@ -11,6 +11,7 @@ body {
 .nav-Container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 5px 10px 5px 2px;
 
     & img {
@@ -142,6 +143,7 @@ body {
 
     & p {
         color: #ffffff;
+        font-size: 18px;
     }
 
     &__contImg {
