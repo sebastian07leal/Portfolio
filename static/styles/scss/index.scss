@@ -1,8 +1,8 @@
 @import '../../../node_modules/materialize-css/sass/materialize.scss';
 
-$back-color: #121212;
+$back-color: #E1E2E1;
 $firs-color: #2C2C2C;
-$second-color: #03DAC5;
+$second-color: #0096a5;
 
 body {
     background-color: $back-color;
@@ -18,7 +18,7 @@ body {
     }
     /**Estilos de boton de menu*/
     & a {
-        color: $second-color;
+        color: #ffffff;
     }
 }
 /**Estilos menu despegable*/
@@ -26,7 +26,7 @@ body {
     padding: 35px 5px 0px 5px;
     display: flex;
     flex-direction: column;
-    background-color: $back-color;
+    background-color: #006978;
 
     & li {
         display: flex;
@@ -34,7 +34,7 @@ body {
     }
 
     & li a {
-        color: $second-color;
+        color: #ffffff;
         font-size: 20px;
     }
 }
@@ -69,7 +69,7 @@ body {
     margin:0px;
     padding: 30px 20px;
     color: $second-color;
-    font-size: 1.4em;
+    font-size: 1.7em;
     font-weight: bold;
 
 }
@@ -80,27 +80,27 @@ body {
 }
 .container-card {
     padding: 8px 10px;
-    background-color: $firs-color;
-    color: white;
+    background-color: #ffffff;
+    color: #212121;
 
     &__title b {
         letter-spacing: 1px;
         font-weight: bold;
         display: block;
-        color: $second-color;
+        color: #0096a5;
     }
 
     &__content {
 
         a {
-            color: $second-color;
+            color: #0096a5;
         }
 
         p {
             margin: 2px 0px 5px 0px;
             padding-left: 10px;
             padding-bottom: 10px;
-            color: white;
+            color: #212121;
         }
     }
 }
@@ -135,17 +135,18 @@ body {
     & h2 {
         margin: 0px 0px;
         font-size: 1.7em;
-        color: $second-color;
+        color: #ffffff;
         font-weight: bold;
     }
 
     & p {
-        color: $second-color;
+        color: #ffffff;
     }
 
     &__contImg {
 
         & img {
+            height: 50px;
             width: 50px;
             margin-right: 15px;
             margin-top: 5px;

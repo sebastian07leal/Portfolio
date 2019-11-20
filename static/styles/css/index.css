@@ -8092,7 +8092,7 @@ input[type=range]::-ms-thumb {
   }
 }
 body {
-  background-color: #121212;
+  background-color: #E1E2E1;
 }
 
 /**Estilos del navegador del header*/
@@ -8106,7 +8106,7 @@ body {
   width: 50px;
 }
 .nav-Container a {
-  color: #03DAC5;
+  color: #ffffff;
 }
 
 /**Estilos menu despegable*/
@@ -8114,14 +8114,14 @@ body {
   padding: 35px 5px 0px 5px;
   display: flex;
   flex-direction: column;
-  background-color: #121212;
+  background-color: #006978;
 }
 .sidenav__container li {
   display: flex;
   justify-content: center;
 }
 .sidenav__container li a {
-  color: #03DAC5;
+  color: #ffffff;
   font-size: 20px;
 }
 
@@ -8144,7 +8144,7 @@ body {
   font-size: 20px;
 }
 .banner-container__section--text b {
-  color: #03DAC5;
+  color: #0096a5;
 }
 
 /**Estilos de divisores */
@@ -8152,8 +8152,8 @@ body {
   display: block;
   margin: 0px;
   padding: 30px 20px;
-  color: #03DAC5;
-  font-size: 1.4em;
+  color: #0096a5;
+  font-size: 1.7em;
   font-weight: bold;
 }
 
@@ -8164,33 +8164,33 @@ body {
 
 .container-card {
   padding: 8px 10px;
-  background-color: #2C2C2C;
-  color: white;
+  background-color: #ffffff;
+  color: #212121;
 }
 .container-card__title b {
   letter-spacing: 1px;
   font-weight: bold;
   display: block;
-  color: #03DAC5;
+  color: #0096a5;
 }
 .container-card__content a {
-  color: #03DAC5;
+  color: #0096a5;
 }
 .container-card__content p {
   margin: 2px 0px 5px 0px;
   padding-left: 10px;
   padding-bottom: 10px;
-  color: white;
+  color: #212121;
 }
 
 /**Estilos de seccion de estudios*/
 .container-certifications {
-  background-color: #121212;
+  background-color: #E1E2E1;
   margin: 0px 10.5px;
   padding: 0px 5px;
 }
 .container-certifications__card {
-  background-color: #121212;
+  background-color: #E1E2E1;
   padding: 5px 10px;
   display: flex;
   flex-wrap: wrap;
@@ -8211,13 +8211,14 @@ body {
 .container-footer h2 {
   margin: 0px 0px;
   font-size: 1.7em;
-  color: #03DAC5;
+  color: #ffffff;
   font-weight: bold;
 }
 .container-footer p {
-  color: #03DAC5;
+  color: #ffffff;
 }
 .container-footer__contImg img {
+  height: 50px;
   width: 50px;
   margin-right: 15px;
   margin-top: 5px;
