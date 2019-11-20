@@ -8197,6 +8197,7 @@ body {
   justify-content: center;
 }
 .container-certifications__card img {
+  height: 130px;
   width: 150px;
   margin: 5px 5px;
 }
@@ -8218,7 +8219,6 @@ body {
   color: #ffffff;
 }
 .container-footer__contImg img {
-  height: 50px;
   width: 50px;
   margin-right: 15px;
   margin-top: 5px;
