@@ -8092,7 +8092,7 @@ input[type=range]::-ms-thumb {
   }
 }
 body {
-  background-color: #121212;
+  background-color: #0097a7;
 }
 
 /**Estilos del navegador del header*/
@@ -8114,7 +8114,7 @@ body {
   padding: 35px 5px 0px 5px;
   display: flex;
   flex-direction: column;
-  background-color: #121212;
+  background-color: #0097a7;
 }
 .sidenav__container li {
   display: flex;
@@ -8185,12 +8185,12 @@ body {
 
 /**Estilos de seccion de estudios*/
 .container-certifications {
-  background-color: #121212;
+  background-color: #0097a7;
   margin: 0px 10.5px;
   padding: 0px 5px;
 }
 .container-certifications__card {
-  background-color: #121212;
+  background-color: #0097a7;
   padding: 5px 10px;
   display: flex;
   flex-wrap: wrap;
