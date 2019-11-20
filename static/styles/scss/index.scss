@@ -55,7 +55,7 @@ body {
         & p {
             margin: 0px;
             color: white;
-            font-size: 20px;
+            font-size: 25px;
         }
 
         & b {
@@ -78,11 +78,20 @@ body {
 /**Estilos de seccion de portafolio*/
 .portafolio {
     margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    &__card {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 }
 .container-card {
+    max-width: 350px;
     padding: 8px 10px;
     background-color: #ffffff;
     color: #212121;
+    margin: 15px;
 
     &__title b {
         letter-spacing: 1px;
@@ -153,5 +162,58 @@ body {
             margin-right: 15px;
             margin-top: 5px;
         }
+    }
+}
+
+@media screen and (max-width: 424px) {
+
+    .container-certifications {
+        &__card {
+            & img {
+                height: 150px;
+                width: 200px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 480px) {
+
+    .container-certifications {
+        &__card {
+            justify-content: space-around;
+            & img {
+                height: 130px;
+                width: 150px;
+            }
+        }
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+    .container-certifications {
+        &__card {
+         justify-content: space-around;
+            & img {
+                height: 160px;
+                width: 210px;
+            }
+        }
+    }
+
+    .banner-container {
+        &__section--text {
+            & p {
+                font-size: 40px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 769px) {
+    body {
+        background-color: pink;
     }
 }
