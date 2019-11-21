@@ -7,6 +7,15 @@ $second-color: #0096a5;
 body {
     background-color: $back-color;
 }
+
+.container-main {
+    display: flex;
+    justify-content: center;
+    &__cont {
+        max-width: 800px;
+    }
+}
+
 /**Estilos del navegador del header*/
 .nav-Container {
     display: flex;
@@ -213,7 +222,31 @@ body {
 }
 
 @media screen and (min-width: 769px) {
-    body {
-        background-color: pink;
+    .container-main {
+        background-color: #8bbdc2;
+        &__cont {
+          background-color: #E1E2E1;
+          box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+        }
     }
+
+    .container-certifications {
+        &__card {
+         justify-content: space-around;
+            & img {
+                height: 160px;
+                width: 210px;
+            }
+        }
+    }
+
+    .banner-container {
+        &__section--text {
+            & p {
+                font-size: 40px;
+            }
+        }
+    }
+
+
 }
